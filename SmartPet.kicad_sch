@@ -1,0 +1,64 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "01a365c6-4ba7-4752-afd5-709df03d476a")
+	(paper "A3")
+	(title_block
+		(title "SmartPet — Smart Pet Collar Wearable")
+		(date "2026-08-20")
+		(rev "v1.0")
+		(company "SmartPet Technologies")
+		(comment 1 "Ultra-low power ESP32-C3, SAM-M8Q GPS, LIS3DH IMU, NTC")
+		(comment 2 "LiPo Management with MCP73831 & AP2112K-3.3")
+	)
+	(lib_symbols
+	)
+
+	(text "1. PROCESAMIENTO Y CONECTIVIDAD: ESP32-C3-WROOM-02-N4 (BLE Beacon + WiFi)"
+		(at 25.4 30.0 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(bold yes)
+			)
+		)
+		(uuid "c04e5832-5213-40fd-96a6-7c2ae602d118")
+	)
+	(text "2. LOCALIZACIÓN: u-blox SAM-M8Q con antena de parche integrada (UART / I2C)"
+		(at 25.4 110.0 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(bold yes)
+			)
+		)
+		(uuid "e7d9d31c-4aaa-427d-9bc5-f65dda7a18c2")
+	)
+	(text "3. SENSORES BIOMÉTRICOS: IMU LIS3DH (I2C) + Termistor NTC 10k (ADC)"
+		(at 180.0 110.0 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(bold yes)
+			)
+		)
+		(uuid "d3588360-5d7c-411f-bc27-7fa827d8c98a")
+	)
+	(text "4. GESTIÓN DE ENERGÍA: Cargador LiPo MCP73831T + LDO AP2112K-3.3 + USB-C"
+		(at 180.0 30.0 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(bold yes)
+			)
+		)
+		(uuid "e9b0cf36-67e4-4e5a-9561-61fe940716f7")
+	)
+
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

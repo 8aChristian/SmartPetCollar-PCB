@@ -1,0 +1,58 @@
+PCB statistics report
+=====================
+- Date: 2026-09-06 11:54:31 AM
+- Project: SmartPet
+- Board name: SmartPet
+
+Board
+-----
+- Width: 69.0000 mm
+- Height: 41.0000 mm
+- Area: 2821.271 mm²
+- Front copper area: 2180.138 mm²
+- Back copper area: 2153.037 mm²
+- Min track clearance: 0.2048 mm
+- Min track width: 0.1800 mm
+- Min drill diameter: 0.2000 mm
+- Board stackup thickness: 1.6000 mm
+
+- Front footprint area: 1211.091 mm²
+- Back footprint area: 19.771 mm²
+- Front component density: 42.93 %
+- Back component density: 0.70 %
+Pads
+----
+- Through hole: 16
+- SMD: 224
+- Connector: 0
+- NPTH: 2
+- Castellated: 0
+- Press-fit: 0
+
+Vias
+----
+- Through vias: 38
+- Blind vias: 0
+- Buried vias: 0
+- Micro vias: 0
+
+Components
+----------
+
+|              | Front Side | Back Side | Total |
+|--------------|------------|-----------|-------|
+|THT:          |          0 |         0 |     0 |
+|SMD:          |         30 |         0 |    30 |
+|Unspecified:  |          0 |         0 |     0 |
+|Total:        |         30 |         0 |    30 |
+
+Drill holes
+-----------
+
+| Count | Shape |    X Size |    Y Size | Plated | Via/Pad | Start Layer | Stop Layer |
+|-------|-------|-----------|-----------|--------|---------|-------------|------------|
+|    38 | Round | 0.3000 mm | 0.3000 mm |    PTH |     Via |        F.Cu |       B.Cu |
+|    12 | Round | 0.2000 mm | 0.2000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     2 | Round | 0.6500 mm | 0.6500 mm |   NPTH |     Pad |        F.Cu |       B.Cu |
+|     2 |  Slot | 0.6000 mm | 1.7000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     2 |  Slot | 0.6000 mm | 1.4000 mm |    PTH |     Pad |        F.Cu |       B.Cu |

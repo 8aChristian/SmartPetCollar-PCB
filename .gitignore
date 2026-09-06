@@ -1,0 +1,22 @@
+# KiCad User Preference & Auto-Backup Files
+*.kicad_prl
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+*-bak-*
+*.kicad_pcb-save
+*.kicad_sch-save
+*.autosave
+*.tmp
+_autosave-*
+*.lck
+
+# OS / Editor Files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+.history/
+*-backups/
